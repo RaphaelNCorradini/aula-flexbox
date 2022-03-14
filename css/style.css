@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+    justify-content: space-between;
+}
+
+#nav-grupo-1 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 4%;
+    align-items: center;
+    gap: 10px;
+}
+
+#nav-grupo-2 {
+    display: flex;
+    flex-direction: row;
+    padding-right: 4%;
+    gap: 15px
+}
+
+#nav-1 {
+    width: 13%;
+}
+
+#nav-2 {
+    width: 25%;
+    height: fit-content;
+}
+
+p {
+    color: white;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    background-color: #e5e5e5;
+    justify-content: center;
+    gap: 5px;
+}
+
+#sessao-item1  {
+    background-image: url("../img/delivery.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    height: 60vh;
+    width: 35%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+    text-align: center;
+}
+
+strong {
+    color: white;
+    font-weight: bolder;
+}
+
+#sessao-item2 {
+    background-color: white;
+    width: 35%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#sessao-item2-h2 {
+    color: red;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#sessao-item2-div {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+}
+
+#top-5 {
+    color: black;
+
+}
+
+#sabores {
+    width: 20%;
+    height: fit-content;
+}
+
+footer {
+    background-color: black;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#nav-grupo-2-footer {
+    padding-left: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: fit-content;
+}
+
+#nav-grupo-1-footer {
+    width: 30%;
+}
+
+#nav-2-footer {
+    width: 40%;
+}
+
+#nav-grupo-1-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
